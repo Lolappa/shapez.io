@@ -53,8 +53,8 @@ global:
         escape: ESC
         shift: SHIFT
         space: VÄLILYÖNTI
-    loggingIn: Logging in
-    loadingResources: Downloading additional resources (<percentage> %)
+    loggingIn: Kirjaudutaan sisään
+    loadingResources: Ladataan resursseja (<percentage> %)
 demoBanners:
     title: Demoversio
     intro: |-
@@ -89,16 +89,15 @@ mainMenu:
     savegameLevel: Taso <x>
     savegameLevelUnknown: Tuntematon taso
     savegameUnnamed: Nimetön
-    puzzleMode: Puzzle Mode
-    back: Back
-    puzzleDlcText: Do you enjoy compacting and optimizing factories? Get the Puzzle
-        DLC now on Steam for even more fun!
+    puzzleMode: Pulmatila
+    back: Takaisin
+    puzzleDlcText: Tykkäätkö tehtaiden pienentämisestä ja optimoinnista? Hanki pulma 
+        DLC nyt Steamista lisähuviksi!
     puzzleDlcWishlist: Wishlist now!
     puzzleDlcViewNow: View Dlc
     mods:
-        title: Active Mods
-        warningPuzzleDLC: Playing the Puzzle DLC is not possible with mods. Please
-            disable all mods to play the DLC.
+        title: Aktiiviset Modit
+        warningPuzzleDLC: Pulma DLC:n pelaaminen modien kanssa ei ole mahdollista. Kytke kaikki modit pelataksesi DLC:tä.
 dialogs:
     buttons:
         ok: OK
@@ -112,9 +111,9 @@ dialogs:
         viewUpdate: Näytä päivitys
         showUpgrades: Näytä päivitykset
         showKeybindings: Näytä pikanäppäimet
-        retry: Retry
+        retry: Yritä uudelleen
         continue: Continue
-        playOffline: Play Offline
+        playOffline: Pelaa Offline tilassa
     importSavegameError:
         title: Tuontivirhe
         text: "Tallennuksen tuonti epäonnistui:"
@@ -211,30 +210,29 @@ dialogs:
         title: Ohjevideo saatavilla
         desc: Tästä tasosta on saatavilla ohjevideo! Haluaisitko katsoa sen?
     editConstantProducer:
-        title: Set Item
+        title:Aseta muoto
     puzzleLoadFailed:
-        title: Puzzles failed to load
+        title: Pulman lataus epäonnistui
         desc: "Unfortunately the puzzles could not be loaded:"
     submitPuzzle:
         title: Submit Puzzle
-        descName: "Give your puzzle a name:"
-        descIcon: "Please enter a unique short key, which will be shown as the icon of
-            your puzzle (You can generate them <link>here</link>, or choose one
-            of the randomly suggested shapes below):"
-        placeholderName: Puzzle Title
+        descName: "Anna pulmallesi nimi:"
+        descIcon: "Aseta yksilöllinen lyhyt avain, joka tulee olemaan pulmasi kuvake (Voit generoida sen<link>täällä</link>, tai valitse yksi
+            satunnaisesti valituista alta):"
+        placeholderName: Pulman Nimi
     puzzleResizeBadBuildings:
-        title: Resize not possible
-        desc: You can't make the zone any smaller, because then some buildings would be
-            outside the zone.
+        title: Koon muuttaminen ei ole mahdollista.
+        desc: Et voi tehdä alueesta pienempää, koska jotkin rakennukset olisivat
+            alueen ulkopuolella.
     puzzleLoadError:
-        title: Bad Puzzle
-        desc: "The puzzle failed to load:"
+        title: Huono pulma
+        desc: "Pulman lataaminen epäonnistui:"
     offlineMode:
-        title: Offline Mode
+        title: Offline Tila
         desc: We couldn't reach the servers, so the game has to run in offline mode.
             Please make sure you have an active internet connection.
     puzzleDownloadError:
-        title: Download Error
+        title: Latausvirhe
         desc: "Failed to download the puzzle:"
     puzzleSubmitError:
         title: Submission Error
@@ -244,7 +242,7 @@ dialogs:
         desc: Congratulations! Your puzzle has been published and can now be played by
             others. You can now find it in the "My puzzles" section.
     puzzleCreateOffline:
-        title: Offline Mode
+        title: Offline Tila
         desc: Since you are offline, you will not be able to save and/or publish your
             puzzle. Would you still like to continue?
     puzzlePlayRegularRecommendation:
@@ -253,7 +251,7 @@ dialogs:
             before attempting the puzzle DLC, otherwise you may encounter
             mechanics not yet introduced. Do you still want to continue?
     puzzleShare:
-        title: Short Key Copied
+        title: Lyhyt avain kopioitu
         desc: The short key of the puzzle (<key>) has been copied to your clipboard! It
             can be entered in the puzzle menu to access the puzzle.
     puzzleReport:
@@ -463,18 +461,18 @@ ingame:
                 title: Modding support!
                 desc: Over 80 mods available!
         titleV2: "Get the full version now on Steam to unlock:"
-        titleExpiredV2: Demo completed!
-        titleEnjoyingDemo: Enjoy the demo?
+        titleExpiredV2: Demo suoritettu!
+        titleEnjoyingDemo: Tykkäätkö demosta?
     puzzleEditorSettings:
-        zoneTitle: Zone
-        zoneWidth: Width
-        zoneHeight: Height
-        trimZone: Trim
-        clearItems: Clear Items
-        share: Share
+        zoneTitle: Alue
+        zoneWidth: Leveys
+        zoneHeight: Korkeus
+        trimZone: Rajaa
+        clearItems: Clear items
+        share: Jaa
         report: Report
         clearBuildings: Clear Buildings
-        resetPuzzle: Reset Puzzle
+        resetPuzzle: Reset puzzle
     puzzleEditorControls:
         title: Puzzle Creator
         instructions:
@@ -501,10 +499,10 @@ ingame:
         menuBtn: Menu
         nextPuzzle: Next Puzzle
     puzzleMetadata:
-        author: Author
-        shortKey: Short Key
-        rating: Difficulty score
-        averageDuration: Avg. Duration
+        author: Tekijä
+        shortKey: Lyhyt avain
+        rating: Vaikeustaso
+        averageDuration: Keskimääräinen kesto
         completionRate: Completion rate
 shopUpgrades:
     belt:
@@ -1131,7 +1129,7 @@ keybindings:
         rotateToDown: "Käännä: osoittaa alas"
         rotateToRight: "Käännä: osoittaa oikealle"
         rotateToLeft: "Käännä: osoittaa vasemmalle"
-        constant_producer: Constant Producer
+        constant_producer: Jatkuva tuottaja
         goal_acceptor: Goal Acceptor
         block: Block
         massSelectClear: Clear belts
@@ -1223,31 +1221,31 @@ tips:
     - Press F4 kahdesti nähdäksesi hiiren ja kameran ruudun.
     - Klikkaa kiinnitetyn muodon vasemmalta puolelta irrottaaksesi sen.
 puzzleMenu:
-    play: Play
-    edit: Edit
+    play: Pelaa
+    edit: Muokkaa
     title: Puzzle Mode
     createPuzzle: Create Puzzle
-    loadPuzzle: Load
+    loadPuzzle: Lataa
     reviewPuzzle: Review & Publish
     validatingPuzzle: Validating Puzzle
     submittingPuzzle: Submitting Puzzle
     noPuzzles: There are currently no puzzles in this section.
     categories:
         levels: Levels
-        new: New
+        new: Uusi
         top-rated: Top Rated
         mine: My Puzzles
-        easy: Easy
-        hard: Hard
-        completed: Completed
-        medium: Medium
+        easy: Helppo
+        hard: Vaikea
+        completed: Suoritettu
+        medium: Keskivaikea
         official: Official
         trending: Trending today
         trending-weekly: Trending weekly
         categories: Categories
-        difficulties: By Difficulty
+        difficulties: Vaikeustason Mukaan
         account: My Puzzles
-        search: Search
+        search: Haku
     validation:
         title: Invalid Puzzle
         noProducers: Please place a Constant Producer!
@@ -1261,26 +1259,26 @@ puzzleMenu:
         autoComplete: Your puzzle autocompletes itself! Please make sure your constant
             producers are not directly delivering to your goal acceptors.
     difficulties:
-        easy: Easy
-        medium: Medium
-        hard: Hard
-        unknown: Unrated
+        easy: Helppo
+        medium: Keskivaikea
+        hard: Vaikea
+        unknown: unrated
     dlcHint: Purchased the DLC already? Make sure it is activated by right clicking
         shapez.io in your library, selecting Properties > DLCs.
     search:
-        action: Search
+        action: Haku
         placeholder: Enter a puzzle or author name
         includeCompleted: Include Completed
         difficulties:
             any: Any Difficulty
-            easy: Easy
-            medium: Medium
-            hard: Hard
+            easy: Helppo
+            medium: Keskivaikea
+            hard: Vaikea
         durations:
             any: Any Duration
-            short: Short (< 2 min)
-            medium: Normal
-            long: Long (> 10 min)
+            short: Lyhyt (< 2 min)
+            medium: Normaali
+            long: Pitkä (> 10 min)
 backendErrors:
     ratelimit: You are performing your actions too frequent. Please wait a bit.
     invalid-api-key: Failed to communicate with the backend, please try to
@@ -1309,9 +1307,9 @@ backendErrors:
     no-permission: You do not have the permission to perform this action.
 mods:
     title: Mods
-    author: Author
-    version: Version
-    modWebsite: Website
+    author: Tekijä
+    version: Versio
+    modWebsite: Sivusto
     openFolder: Open Mods Folder
     folderOnlyStandalone: Opening the mod folder is only possible when running the standalone.
     browseMods: Browse Mods
